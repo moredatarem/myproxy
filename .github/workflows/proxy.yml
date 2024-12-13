@@ -33,7 +33,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy1
+    - name: Proxy4
       continue-on-error: true 
       run: ${{ secrets.PROXY4 }}
  Proxy5: 
@@ -41,7 +41,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy2
+    - name: Proxy5
       continue-on-error: true 
       run: ${{ secrets.PROXY5 }}
  Proxy6: 
@@ -49,7 +49,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy3
+    - name: Proxy6
       continue-on-error: true 
       run: ${{ secrets.PROXY6 }}
  Proxy7: 
@@ -57,7 +57,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy1
+    - name: Proxy7
       continue-on-error: true 
       run: ${{ secrets.PROXY7 }}
  Proxy8: 
@@ -65,7 +65,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy2
+    - name: Proxy8
       continue-on-error: true 
       run: ${{ secrets.PROXY8 }}
  Proxy9: 
@@ -73,7 +73,7 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy3
+    - name: Proxy8
       continue-on-error: true 
       run: ${{ secrets.PROXY9 }}
  Proxy10: 
@@ -81,6 +81,46 @@ jobs:
     timeout-minutes: 350
     steps: 
     - uses: actions/checkout@v3
-    - name: Proxy1
+    - name: Proxy10
       continue-on-error: true 
       run: ${{ secrets.PROXY10 }}
+ Proxy11: 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Proxy11
+      continue-on-error: true 
+      run: ${{ secrets.PROXY11 }}
+ Proxy12: 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Proxy12
+      continue-on-error: true 
+      run: ${{ secrets.PROXY12 }}
+ Proxy13: 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Proxy13
+      continue-on-error: true 
+      run: ${{ secrets.PROXY13 }}
+ Proxy14: 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Proxy14
+      continue-on-error: true 
+      run: ${{ secrets.PROXY14 }}
+ Proxy15: 
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350
+    steps: 
+    - uses: actions/checkout@v3
+    - name: Proxy15
+      continue-on-error: true 
+      run: ${{ secrets.PROXY15 }}
